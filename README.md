@@ -107,12 +107,21 @@ gsettings set org.gnome.desktop.background picture-uri-dark "file:///绝对路�
 - 主宇宙：[Nailong-Studio/NaiLong-Universe](https://github.com/Nailong-Studio/NaiLong-Universe) - 奶龙主题全家桶（主题、终端配色、表情包）
 - 本仓库：[Nailong-Studio/wallpaper](https://github.com/Nailong-Studio/wallpaper) - 独立壁纸库
 
+## 致谢
+
+特别感谢以下 B 站 UP 主的二创授权与素材分享：
+
+- **泽央 zeyang**
+- **防御老猫**
+- **超能尼尔尼尔**
+
+以上均为 B 站 UP 主，已获明示可二传/二创，烦请使用时备注来源。侵删。
+
 ## 版权声明
 
 - 奶龙角色形象版权归其版权方所有，本项目为粉丝向资源合集
-- 壁纸与表情包素材来自网络公开资源，为粉丝整理，非官方出品
-- 请只上传合法来源的资源
-- 本项目纯属用爱发电，不做任何商业用途
+- 壁纸与表情包素材来自网络公开资源及上述 B 站 UP 主授权二创，为粉丝整理，非官方出品
+- 请只上传合法来源或已获授权的资源，并按原作者要求备注来源
 
 ## 许可证
 
