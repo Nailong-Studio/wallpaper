@@ -1,8 +1,40 @@
-# Nailong Wallpaper · 奶龙壁纸库
+# Nailong Assets · 奶龙素材库
 
-> 换壁纸一时爽，一直换一直爽。134 张精选奶龙壁纸（22 张卡片 + 38 张名画 + 9 张特别艺术 + 29 张竖屏 + 36 张艺术创作），让你的桌面变成奶龙的窝。
+> 换壁纸一时爽，一直换一直爽。奶龙全家桶的**独立素材仓库**：134 张精选壁纸（22 张卡片 + 38 张名画 + 9 张特别艺术 + 29 张竖屏 + 36 张艺术创作）+ 表情包 + 品牌素材 + 宣传视频，让你的桌面变成奶龙的窝。
 
-从 [Nailong-Studio/NaiLong-Universe](https://github.com/Nailong-Studio/NaiLong-Universe) 分离的独立壁纸仓库，开箱即用，按分辨率分目录存放。
+本仓库是 [Nailong-Studio/NaiLong-Universe](https://github.com/Nailong-Studio/NaiLong-Universe)（主仓）的素材仓，由主仓通过子模块挂载（`wallpapers/`），画廊站点也直接引用本仓原图。**图片素材一律放这里，主仓只放代码与文档。**
+
+## 目录结构
+
+```
+.
+├── fullhd/     # 22 张 · 卡片海报风 · 1920x1080 原图直出
+├── classic/    # 38 张 · 名画系列 · 油画质感，奶龙当主角
+├── special/    # 9 张 · 特别艺术补充 · 奶蛙/孤独奶龙主义等外传
+├── phone/      # 29 张 · 竖屏手机壁纸 · 1080x1920 最伟大的奶龙
+├── art/        # 36 张 · 艺术创作 · 二创艺术壁纸
+├── emotes/     # 22 张表情包（静图 + GIF 动图），斗图弹药库
+├── assets/     # 品牌素材（logo 等）
+├── promo/      # 宣传视频（隧道动效、hero 开场）
+├── 4k/         # 3840x2160，适配 4K 显示器（待产）
+├── 2k/         # 2560x1440，适配 2K 显示器（待产）
+├── dualscreen/ # 双屏拼接壁纸（待产）
+└── scripts/    # 壁纸生成脚本
+```
+
+## 已有壁纸
+
+| 目录 | 数量 | 风格 | 分辨率 | 说明 |
+| --- | --- | --- | --- | --- |
+| `fullhd/` | 22 张 | 卡片海报风 | 1920×1080 | **原图直出**，一像素都不裁剪、不抠图、不P图，四周空白用原图背景色填充 |
+| `classic/` | 38 张 | 名画系列 | 1920×1080 为主 | 世界名画，奶龙主演 ——《自由引导奶龙》《奶龙之筏》《创造奶龙》等 38 幕，油画质感 |
+| `special/` | 9 张 | 特别艺术补充 | 1882×1080 / 1280×720 | 奶蛙的永恒 + 孤独奶龙主义 8 幕，同人二创无损 PNG，已做无痕去水印 |
+| `phone/` | 29 张 | 竖屏手机壁纸 | 1080×1920 | 最伟大的奶龙 29 帧抽取，无损 PNG，适配手机竖屏 |
+| `art/` | 36 张 | 艺术创作 | 1536×2752 / 768×1376 | 二创艺术壁纸（无损 PNG） |
+
+## 表情包
+
+`emotes/` 共 22 张（静图 + GIF 动图），无配字"裸图"为主，方便二次创作。完整清单与版权说明见 [emotes/README.md](emotes/README.md)。
 
 ## 预览
 
@@ -18,31 +50,6 @@
   <img src="classic/创造奶龙_02.jpg" alt="创造奶龙" width="280">
 </p>
 
-## 已有壁纸
-
-| 目录 | 数量 | 风格 | 分辨率 | 说明 |
-| --- | --- | --- | --- | --- |
-| `fullhd/` | 22 张 | 卡片海报风 | 1920×1080 | **原图直出**，一像素都不裁剪、不抠图、不P图，四周空白用原图背景色填充 |
-| `classic/` | 38 张 | 名画系列 | 1920×1080 为主 | 世界名画，奶龙主演 ——《自由引导奶龙》《奶龙之筏》《创造奶龙》等 38 幕，油画质感 |
-| `special/` | 9 张 | 特别艺术补充 | 1882×1080 / 1280×720 | 奶蛙的永恒 + 孤独奶龙主义 8 幕，同人二创无损 PNG，已做无痕去水印 |
-| `phone/` | 29 张 | 竖屏手机壁纸 | 1080×1920 | 最伟大的奶龙 29 帧抽取，无损 PNG，适配手机竖屏 |
-| `art/` | 36 张 | 艺术创作 | 1536×2752 / 768×1376 | 二创艺术壁纸（无损 PNG） |
-
-```
-.
-├── fullhd/     # 22 张 · 卡片海报风 · 1920x1080 原图直出
-├── classic/    # 38 张 · 名画系列 · 油画质感，奶龙当主角
-├── special/    # 9 张 · 特别艺术补充 · 奶蛙/孤独奶龙主义等外传
-├── phone/      # 29 张 · 竖屏手机壁纸 · 1080x1920 最伟大的奶龙
-├── art/        # 36 张 · 艺术创作 · 二创艺术壁纸
-├── 4k/         # 3840x2160，适配 4K 显示器（待产）
-├── 2k/         # 2560x1440，适配 2K 显示器（待产）
-├── dualscreen/ # 双屏拼接壁纸（待产）
-└── scripts/    # 壁纸生成脚本
-```
-
-> `classic/` 约 15MB，`fullhd/` 约 2.9MB，`special/` 约 11MB，`phone/` 约 66MB，`art/` 约 193MB，合计约 288MB。
-
 ## 快速开始
 
 直接下载你喜欢的分辨率，或克隆整个仓库：
@@ -50,6 +57,8 @@
 ```bash
 git clone https://github.com/Nailong-Studio/wallpaper.git
 ```
+
+> `classic/` 约 15MB，`fullhd/` 约 2.9MB，`special/` 约 11MB，`phone/` 约 66MB，`art/` 约 193MB，合计约 288MB。
 
 ## 生成壁纸
 
@@ -95,7 +104,7 @@ gsettings set org.gnome.desktop.background picture-uri-dark "file:///绝对路�
 
 ## 贡献
 
-欢迎投喂壁纸：
+欢迎投喂壁纸与表情包：
 
 - 上传前请将图片裁剪/生成为对应目录的分辨率
 - 保持视觉风格统一（奶龙主题色、色调一致）
@@ -104,8 +113,8 @@ gsettings set org.gnome.desktop.background picture-uri-dark "file:///绝对路�
 
 ## 相关仓库
 
-- 主宇宙：[Nailong-Studio/NaiLong-Universe](https://github.com/Nailong-Studio/NaiLong-Universe) - 奶龙主题全家桶（主题、终端配色、表情包）
-- 本仓库：[Nailong-Studio/wallpaper](https://github.com/Nailong-Studio/wallpaper) - 独立壁纸库
+- 主宇宙：[Nailong-Studio/NaiLong-Universe](https://github.com/Nailong-Studio/NaiLong-Universe) - 奶龙主题全家桶（主题、终端配色、画廊、表情包索引）
+- 本仓库：[Nailong-Studio/wallpaper](https://github.com/Nailong-Studio/wallpaper) - 独立素材库（壁纸、表情包、品牌素材、宣传视频）
 
 ## 版权声明
 
