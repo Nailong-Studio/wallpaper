@@ -9,7 +9,9 @@
 
 > 本仓库为「奶蛙艺术圣殿」官网（[NaiLong-Universe](https://github.com/Nailong-Studio/NaiLong-Universe)）的全部素材源。
 > 奶蛙为官方奶龙角色的民间 AI 变异体：黄圆润 / 浅米腹 / 绿眼 / 灰爪。本仓素材统一以「奶蛙」命名。
-> **想贡献素材？看 [CONTRIBUTING.md](CONTRIBUTING.md)。**
+> **香油钱箱在这里**：素材免费拿，快乐不限量。看完全仓觉得不错，回主仓 [NaiLong-Universe](https://github.com/Nailong-Studio/NaiLong-Universe) 点个 ⭐ 再走，奶蛙会记住你的。
+
+> **想贡献素材？看 [CONTRIBUTING.md](CONTRIBUTING.md)——交了素材就是圣殿股东。**
 
 
 ## 目录结构

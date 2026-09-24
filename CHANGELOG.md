@@ -14,3 +14,8 @@
 - 新增 `laughs/` 19 张大笑奶蛙 + `emotes/` 11 张奶蛙表情（中文语义命名）
 - 去除重复素材（与 emotes/nailong-10、nailong-21 像素级重复的候选剔除）
 - 删除字节级重复的 nailong-01.jpeg；两处重名文件加 `-emote` 后缀
+
+## v2.2（2026-09-24）· 功德化
+
+- README / CONTRIBUTING 幽默化：加香油钱引导、参与路径表格、"被奶蛙瞪三秒"规范
+- 新增 feature_request Issue 模板
